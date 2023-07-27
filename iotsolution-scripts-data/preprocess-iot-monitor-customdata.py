@@ -144,7 +144,7 @@ def sendtransactiondata(maintopic,mainproducerid,VIPERPORT,index,preprocesstopic
 #     preprocesslogic='min,max,avg,diff,outliers,variance,anomprob,varied,outliers2-5,anomprob2-5,anomprob3,gm,hm,trend,IQR,trimean,spikedetect,cv,skewness,kurtosis'
 #     preprocesslogic='anomprob,outliers,consistency,variance,max,avg,diff,diffmargin,trend,min'
 
-     preprocessconditions=''
+     preprocessconditions='max, IQR, consistency, avg, anomprob'
      
       # You can access these new preprocessed topics as:
       #   arcturus-humidity_preprocessed_Max
